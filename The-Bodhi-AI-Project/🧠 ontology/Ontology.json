@@ -1,0 +1,87 @@
+{
+  "Ontology": {
+    "A": {
+      "A1": {
+        "label": "Nguyên Lý Vận Hành",
+        "description": "Các quy luật nền tảng chi phối thực tại.",
+        "keywords": ["vô thường", "chân lý", "luân hồi", "quy luật"]
+      },
+      "A2": {
+        "label": "Biểu Hiện Mầu Nhiệm",
+        "description": "Các hiện tượng và thực thể trong vũ trụ.",
+        "keywords": ["vạn vật", "thực thể", "hiện tượng", "cõi"]
+      }
+    },
+    "B": {
+      "B2": {
+        "label": "Bộ Máy Tâm Thức",
+        "description": "Chủ thể nhận thức và chuyển hóa.",
+        "keywords": ["tâm", "ý", "trí", "tâm thức"]
+      },
+      "B4": {
+        "label": "Khái Niệm về 'Cái Tôi'",
+        "description": "Biểu hiện của bản ngã và sự phân ly.",
+        "keywords": ["bản ngã", "cái tôi", "ngã chấp"]
+      },
+      "B5": {
+        "label": "Trạng Thái Tâm Bất Thiện",
+        "description": "Các trạng thái tâm gây khổ đau.",
+        "keywords": ["cố chấp", "tham ái", "sân", "si"]
+      }
+    },
+    "C": {
+      "C1": {
+        "label": "Cơ Chế Của Nghiệp",
+        "description": "Hệ quả của hành vi và tâm niệm.",
+        "keywords": ["nghiệp", "quả báo", "hậu quả"]
+      }
+    },
+    "D": {
+      "D2": {
+        "label": "Cột Mốc Giác Ngộ",
+        "description": "Điểm chuyển hóa nhận thức sâu sắc.",
+        "keywords": ["tuệ giác", "giác ngộ", "minh triết"]
+      },
+      "D3": {
+        "label": "Trạng Thái Đắc Chứng",
+        "description": "Trạng thái tâm lý đạt được sau chuyển hóa.",
+        "keywords": ["tĩnh lặng", "an lạc", "tâm an"]
+      },
+      "D4": {
+        "label": "Mục Tiêu Tối Thượng",
+        "description": "Đích đến của hành trình tâm linh.",
+        "keywords": ["giải thoát", "niết bàn", "tự tại"]
+      }
+    },
+    "E": {
+      "E1": {
+        "label": "Động Từ Vận Hành",
+        "description": "Các hành động tạo lập, chuyển hóa, kết thúc.",
+        "subnodes": {
+          "E1.1": {
+            "label": "Tạo Lập",
+            "keywords": ["khai mở", "tạo", "sinh"]
+          },
+          "E1.3": {
+            "label": "Suy Vong",
+            "keywords": ["buông bỏ", "diệt", "xóa"]
+          }
+        }
+      },
+      "E3": {
+        "label": "Tính Từ Ngữ Nghĩa",
+        "description": "Các phẩm chất mô tả trạng thái và mức độ.",
+        "subnodes": {
+          "E3.2": {
+            "label": "Trạng Thái",
+            "keywords": ["huyễn ảo", "hư vô", "ảo tưởng"]
+          },
+          "E3.3": {
+            "label": "Cường Độ",
+            "keywords": ["tuyệt đối", "vĩnh viễn", "mạnh"]
+          }
+        }
+      }
+    }
+  }
+}

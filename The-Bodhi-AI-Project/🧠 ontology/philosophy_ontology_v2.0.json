@@ -1,0 +1,132 @@
+{
+  "Ontology_Version": "2.0",
+  "Ontology_Name": "Knowledge Ontology of Eastern Philosophy",
+  "Structure": {
+    "A_Reality_Architecture": {
+      "A1": {
+        "label": "Nguyên Lý Vận Hành",
+        "description": "Các quy luật nền tảng, khách quan của thực tại.",
+        "keywords": ["vô thường", "chân lý", "luân hồi", "nhân quả", "quy luật", "âm dương", "vô ngã", "duyên", "đạo"],
+        "links": {
+          "governs": ["A2"],
+          "is_realized_by": ["D2"],
+          "is_the_context_for": ["C1"]
+        }
+      },
+      "A2": {
+        "label": "Biểu Hiện Của Thực Tại",
+        "description": "Các hiện tượng, thực thể, cõi giới trong vũ trụ.",
+        "keywords": ["vạn vật", "pháp giới", "chúng sinh", "hiện tượng", "thực thể", "cõi", "thế gian", "hồng trần", "khổ đau"],
+        "links": {
+          "is_governed_by": ["A1"],
+          "is_perceived_by": ["B2"]
+        }
+      }
+    },
+    "B_Sentient_Being": {
+      "B2": {
+        "label": "Bộ Máy Tâm Thức",
+        "description": "Chủ thể nhận thức, bao gồm tâm, ý, và các tầng nhận thức.",
+        "keywords": ["tâm", "ý", "trí", "tâm thức", "ý thức", "tiềm thức", "giác quan", "tuệ"],
+        "links": {
+          "generates": ["B5", "C1"],
+          "can_attain": ["D3"],
+          "can_develop": ["D2"]
+        }
+      },
+      "B4": {
+        "label": "Khái Niệm về 'Cái Tôi'",
+        "description": "Biểu hiện của bản ngã, là nguồn gốc của sự bám chấp và phân ly.",
+        "keywords": ["bản ngã", "ngã", "cái tôi", "vọng ngã", "chấp ngã"],
+        "links": {
+          "is_a_construct_of": ["B2"],
+          "leads_to": ["B5"],
+          "is_dissolved_by": ["D2"]
+        }
+      },
+      "B5": {
+        "label": "Trạng Thái Tâm Bất Thiện",
+        "description": "Các trạng thái tâm tiêu cực gây ra khổ đau và nghiệp xấu.",
+        "keywords": ["cố chấp", "chấp", "tham ái", "sân", "si", "vô minh", "hận", "thù", "dục", "lo âu", "vọng tưởng"],
+        "links": {
+          "is_caused_by": ["B4"],
+          "causes": ["C1"],
+          "is_opposed_by": ["D_Transformation_Path"],
+          "is_targeted_by": ["E1.3"]
+        }
+      }
+    },
+    "C_Interaction_Dynamics": {
+      "C1": {
+        "label": "Cơ Chế Của Nghiệp",
+        "description": "Quy trình và hệ quả của các hành vi và tâm niệm có chủ đích.",
+        "keywords": ["nghiệp", "quả báo", "nghiệp lực"],
+        "links": {
+          "is_an_application_of": ["A1"],
+          "is_caused_by": ["B5"],
+          "sustains": ["A1"]
+        }
+      }
+    },
+    "D_Transformation_Path": {
+      "D2": {
+        "label": "Cột Mốc Giác Ngộ",
+        "description": "Những điểm chuyển hóa nhận thức sâu sắc, 'thấy' ra bản chất thực tại.",
+        "keywords": ["tuệ giác", "giác ngộ", "minh triết", "đốn ngộ", "tỉnh thức", "chánh kiến"],
+        "links": {
+          "is_preceded_by": ["D3"],
+          "realizes": ["A1"],
+          "achieves": ["D4"]
+        }
+      },
+      "D3": {
+        "label": "Trạng Thái Đắc Chứng",
+        "description": "Các trạng thái tâm lý tích cực đạt được sau quá trình tu tập.",
+        "keywords": ["tĩnh lặng", "an lạc", "tâm an", "chánh niệm", "thanh tịnh", "hòa hợp", "từ bi"],
+        "links": {
+          "is_a_condition_for": ["D2"],
+          "is_enabled_by": ["E1.3"]
+        }
+      },
+      "D4": {
+        "label": "Mục Tiêu Tối Thượng",
+        "description": "Đích đến cuối cùng của hành trình chuyển hóa tâm linh.",
+        "keywords": ["giải thoát", "niết bàn", "tự tại", "vô ngã", "viên mãn"],
+        "links": {
+          "is_achieved_through": ["D2"],
+          "requires": ["E1.3"]
+        }
+      }
+    },
+    "E_Linguistic_Toolkit": {
+      "E1": {
+        "label": "Động Từ Vận Hành",
+        "description": "Các hành động tạo lập, chuyển hóa, kết thúc.",
+        "subnodes": {
+          "E1.1": {
+            "label": "Tạo Lập & Phát Sinh",
+            "keywords": ["khai mở", "tạo", "sinh", "gieo", "phát sinh", "hình thành", "kiến tạo"]
+          },
+          "E1.3": {
+            "label": "Buông Bỏ & Chấm Dứt",
+            "keywords": ["buông bỏ", "diệt", "xóa", "từ bỏ", "chấm dứt"]
+          }
+        }
+      },
+      "E3": {
+        "label": "Tính Từ Ngữ Nghĩa",
+        "description": "Các phẩm chất mô tả trạng thái, cường độ và bản chất.",
+        "subnodes": {
+          "E3.2": {
+            "label": "Trạng Thái & Bản Chất",
+            "keywords": ["huyễn ảo", "hư vô", "ảo tưởng", "chân thật", "tương đối"]
+          },
+          "E3.3": {
+            "label": "Cường Độ",
+            "keywords": ["tuyệt đối", "vĩnh viễn", "mạnh", "hoàn toàn", "trọn vẹn"]
+          }
+        }
+      }
+    }
+  }
+}
